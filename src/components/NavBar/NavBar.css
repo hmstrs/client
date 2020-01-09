@@ -37,9 +37,13 @@
 	border: none;
 	border-radius: 50%;
 	box-shadow: 0 5px 12px rgba(0, 200, 150, 0.12), 0 7px 15px rgba(0, 200, 150, 0.24);
-
+	transition: all ease 300ms;
 }
 
 .NavBar .primary:hover {
 	box-shadow: 0 14px 28px rgba(0, 200, 150, 0.25), 0 10px 10px rgba(0, 200, 150, 0.22);
+}
+
+.NavBar .primary.active svg{
+	transform: rotateZ(45deg);
 }
